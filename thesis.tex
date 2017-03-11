@@ -1,0 +1,74 @@
+
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
+
+\include{thesis.preamble}
+
+
+\usepackage{titlesec}
+\titleformat{\chapter}
+  {\normalfont\Large\bfseries}{\thechapter}{.5em}{}
+\titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titleformat{\section}
+  {\normalfont\large\bfseries}{\thechapter}{.5em}{}
+\titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+
+\title{\LARGE {\bf Wytch Farm Oil field \break Field Development Plan}\\
+ \vspace*{6mm}
+}
+
+\author{
+\textbf{Team H} 
+%\vspace*{10mm}
+\break 
+\break
+Marwah Alsinan \break 
+Muhammad Anang \break
+Prakash Chauhan\break
+Ricko Wijanarko\break
+Stavroula Zervopoulou\break
+Sonny Parsonage\break
+}
+\break
+
+\submitdate{April 2016}
+
+\normallinespacing
+\maketitle
+
+\preface
+\body
+
+
+
+
+\input{content/exec-sum}
+\input{content/static-dynamic-descrip}
+\input{content/static-dynamic-model}
+\input{content/res-dev-scheme}
+\input{content/wells-facility-design}
+\input{content/HSE}
+\input{content/uncertainity-risk}
+\input{content/schedule}
+\input{content/economics}
+\input{content/operating-plan}
+
+
+% body of thesis comes here
+
+
+\appendix
+% appendices come here
+
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{../ref-all.bib}
+\bibliographystyle{alpha}
+
+
+
+\end{document}

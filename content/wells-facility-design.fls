@@ -1,0 +1,6 @@
+PWD /Users/sonnyparsonage/Documents/wytch-farm-p3/WF3/content
+INPUT /usr/local/texlive/2016/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT wells-facility-design.tex
+OUTPUT wells-facility-design.log

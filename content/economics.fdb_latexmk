@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1489248318 "economics.tex" "economics.pdf" "economics" 1489248318
+  "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
+  "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1486588796 3873396 5c3cc37ba3d1a818e557ac3896ae773f ""
+  "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
+  "economics.aux" 1489248318 8 a94a2480d3289e625eea47cd1b285758 ""
+  "economics.tex" 1489248316 19 bb3f8b0d8ccf72449e63b0dddcad9d2a ""
+  (generated)
+  "economics.log"
+  "economics.pdf"
